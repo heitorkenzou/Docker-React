@@ -16,6 +16,12 @@ git clone https://github.com/heitorkenzou/Docker-React.git
 cd dockreact
 docker-compose up -d --build
 
+(if you receive this error: ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+
+If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable.
+)
+run this: <code>sudo chmod 666 /var/run/docker.sock</code>
+
 go to <a href="http://localhost:8001"><localhost</a>
 
 
