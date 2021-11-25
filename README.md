@@ -10,7 +10,7 @@ if you don't have docker installed, run this:
 <code> sudo apt-get update</code><code> sudo apt-get install docker-ce docker-ce-cli containerd.io
 </code>
 
-##Installing
+## Installing
 
 git clone https://github.com/heitorkenzou/Docker-React.git
 cd dockreact
