@@ -19,7 +19,7 @@ if you don't have docker installed, run this:
 ```bash
 # cloning the repository
 git clone https://github.com/heitorkenzou/Docker-React.git
-# entering in the project folder
+# entering the project folder
 cd Docker-React
 # build and run the container
 docker-compose up -d --build
